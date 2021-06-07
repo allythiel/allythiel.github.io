@@ -2,3 +2,26 @@
     width: 60rem;
     margin-bottom: 10px;
 }
+
+.card-deck1{
+    width: 60rem;
+    margin-bottom: 10px;
+}
+
+.column {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 40%;
+    padding: 1rem;
+  }
+
+  .row {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .card-title1{
+      text-align: center;
+  }
