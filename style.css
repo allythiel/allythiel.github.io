@@ -43,12 +43,14 @@ body, html {
     margin-top: 5px;
     margin-bottom: 5px;
     box-shadow: 10px 10px 5px grey;
+    border: none;
 }
 
 .card-deck1{
     width: 60rem;
     margin-bottom: 10px;
     box-shadow: 10px 10px 5px grey;
+    border: none;
 }
 
 .column {
@@ -91,12 +93,13 @@ body, html {
     margin-right: 25px;
     border-radius: 40px;;
     box-shadow: 10px 10px 5px grey;
+    border: none;
   }
 
   /*CONTACT ME CARD - FOR CONTACT ME! TEXT ABOVE CIRCLES */
   .card3{
-    width: 30rem;
-    height: 30rem;
+    width: 28rem;
+    height: 10rem;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 75px;
@@ -105,6 +108,7 @@ body, html {
     text-align: center;
     font-size: xx-large;
     box-shadow: 10px 10px 5px grey;
+    border: none;
   }
 
   /* CIRCLES FOR CONTACT ME PAGE */
