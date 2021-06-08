@@ -66,4 +66,10 @@ body, html {
 
   .card-title{
       text-align: center;
+      background: lightslategray;
+  }
+
+  .card-body{
+      background-color: black;
+      color: white
   }
