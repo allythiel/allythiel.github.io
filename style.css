@@ -7,6 +7,7 @@ body, html {
     height: 100%;
   }
   
+  /* HOME PAGE & CONTACT ME BACKGROUND*/
   .bg {
     background-image: url('./Assets/anete-lusina-zwsHjakE_iI-unsplash.jpg');
     height: 100%;
@@ -16,6 +17,7 @@ body, html {
     background-size: cover;
   }
 
+  /* PROJECTS BACKGROUND */
   .bg1{
     background-image: url('./Assets/emile-perron-xrVDYZRGdw4-unsplash.jpg');
     height: 100%;
@@ -25,6 +27,7 @@ body, html {
     background-size: cover;
   }
 
+  /* ABOUT ME BACKGROUND */
   .bg2{
     background-image: url('./Assets/kayle-kaupanger-_JOupCumElE-unsplash.jpg');
     height: 100%;
@@ -39,11 +42,13 @@ body, html {
     height: 25rem;
     margin-top: 5px;
     margin-bottom: 5px;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .card-deck1{
     width: 60rem;
     margin-bottom: 10px;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .column {
@@ -52,7 +57,7 @@ body, html {
     margin-top: auto;
     margin-bottom: auto;
     width: 40%;
-    padding: 1rem;
+    box-shadow: 10px 10px 5px grey;
   }
 
   .row {
@@ -69,11 +74,14 @@ body, html {
       background: lightslategray;
   }
 
+  /* CARD BODY FOR HOME, ABOUT ME AND PROJECTS */
   .card-body{
-      background-color: black;
+      background-color: #4d4d4d;
+      opacity: 60%;
       color: white
   }
 
+/* PROJECT CARDS */
   .card2{
     width: 30rem;
     height: 30rem;
@@ -81,8 +89,11 @@ body, html {
     margin-bottom: 25px;
     margin-left: 25px;
     margin-right: 25px;
+    border-radius: 40px;;
+    box-shadow: 10px 10px 5px grey;
   }
 
+  /*CONTACT ME CARD - FOR CONTACT ME! TEXT ABOVE CIRCLES */
   .card3{
     width: 30rem;
     height: 30rem;
@@ -90,10 +101,13 @@ body, html {
     margin-bottom: 25px;
     margin-left: 75px;
     margin-right: 25px;
+    border-radius: 40px;
     text-align: center;
     font-size: xx-large;
+    box-shadow: 10px 10px 5px grey;
   }
 
+  /* CIRCLES FOR CONTACT ME PAGE */
   .dot {
     height: 75px;
     width: 75px;
@@ -103,6 +117,7 @@ body, html {
     display: inline-block;
   }
 
+  /* CONTACT ME CARD - TEXT COLOR*/
   .card-body2{
       background-color: transparent;
       color: #bbb;
