@@ -37,31 +37,31 @@ body, html {
     background-size: cover;
   }
 
+  /* CARD DECK FOR PROJECTS PAGE */
 .card-deck{
     width: 60rem;
     height: 25rem;
     margin-top: 5px;
     margin-bottom: 5px;
-    box-shadow: 10px 10px 5px grey;
     border: none;
 }
 
 .card-deck1{
     width: 60rem;
     margin-bottom: 10px;
-    box-shadow: 10px 10px 5px grey;
     border: none;
 }
 
+ /* COLUMN PLACEMENT FOR PROJECT DECKS*/
 .column {
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
     width: 40%;
-    box-shadow: 10px 10px 5px grey;
   }
 
+ /* ROW PLACEMENT FOR PROJECT DECKS*/
   .row {
     margin-right: 30px;
     margin-left: 30px;
@@ -83,10 +83,10 @@ body, html {
       color: white
   }
 
-/* PROJECT CARDS */
+/* HOME PAGE CARD */
   .card2{
     width: 30rem;
-    height: 30rem;
+    height: 15rem;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 25px;
@@ -94,6 +94,20 @@ body, html {
     border-radius: 40px;;
     box-shadow: 10px 10px 5px grey;
     border: none;
+  }
+  
+  .card-title2{
+      background: transparent;
+      color: white;
+      text-align: center;
+      font-size: xx-large;
+  }
+
+ .card-text2{
+     color: white;
+     font-size: 20;
+ }
+
   }
 
   /*CONTACT ME CARD - FOR CONTACT ME! TEXT ABOVE CIRCLES */
