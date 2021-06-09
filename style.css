@@ -125,15 +125,49 @@ body, html {
     border: none;
   }
 
-  /* CIRCLES FOR CONTACT ME PAGE
-  .dot {
-    height: 75px;
-    width: 75px;
-    background-color: #bbb;
-    border-radius: 50%;
-    margin: 10px;
-    display: inline-block;
-  } */
+ /* Style all font awesome icons */
+.fa {
+  padding: 30px;
+  font-size: 50px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* EMAIL */
+.fa-envelope {
+  background: #bbb;
+  color: black;
+}
+
+/* PHONE */
+.fa-phone {
+  background: #bbb;
+  color: black;
+}
+
+/* LINKEDIN */
+.fa-linkedin {
+    background: #bbb;
+    color: black;
+    ;
+}
+
+/* GITHUB */
+.fa-github {
+    background: #bbb;
+    color: black;
+}
 
   /* CONTACT ME CARD - TEXT COLOR*/
   .card-body2{
