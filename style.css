@@ -29,7 +29,7 @@ body, html {
 
   /* ABOUT ME BACKGROUND */
   .bg2{
-    background-image: url('./Assets/kayle-kaupanger-_JOupCumElE-unsplash.jpg');
+    background-image: url('./Assets/fakurian-design-ICTjWYzpoc0-unsplash\ \(1\).jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ body, html {
   /* CARD DECK FOR PROJECTS PAGE */
 .card-deck{
     width: 60rem;
-    height: 25rem;
+    height: 20rem;
     margin-top: 5px;
     margin-bottom: 5px;
     border: none;
@@ -73,14 +73,15 @@ body, html {
 
   .card-title{
       text-align: center;
-      background: lightslategray;
+      margin-bottom: 0px;
   }
 
   /* CARD BODY FOR HOME, ABOUT ME AND PROJECTS */
   .card-body{
       background-color: #4d4d4d;
       opacity: 60%;
-      color: white
+      color: white;
+      margin: 0px;
   }
 
 /* HOME PAGE CARD */
