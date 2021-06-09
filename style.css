@@ -125,7 +125,7 @@ body, html {
     border: none;
   }
 
-  /* CIRCLES FOR CONTACT ME PAGE */
+  /* CIRCLES FOR CONTACT ME PAGE
   .dot {
     height: 75px;
     width: 75px;
@@ -133,7 +133,7 @@ body, html {
     border-radius: 50%;
     margin: 10px;
     display: inline-block;
-  }
+  } */
 
   /* CONTACT ME CARD - TEXT COLOR*/
   .card-body2{
